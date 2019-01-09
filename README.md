@@ -17,3 +17,6 @@ Feel free to add the following
 1. Add some UI/UX features
 2. Unit tests (coverage)
 3. Code linting
+
+
+https://github.com/amusto/RemedyHealthNextCodeTest/wiki
