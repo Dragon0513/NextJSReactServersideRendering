@@ -1,0 +1,354 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="b4cff930-681f-4e4e-aec5-04fff1c1f08f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/components/Header.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/MyLayout.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/guestbook.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/static/webpack/static/development/pages/guestbook.js.0c800dc1afdfe4101e2f.hot-update.js" beforeDir="false" afterPath="$PROJECT_DIR$/.next/static/webpack/static/development/pages/guestbook.js.0c800dc1afdfe4101e2f.hot-update.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/static/webpack/static/development/pages/guestbook.js.1e9189567d459b74c7da.hot-update.js" beforeDir="false" afterPath="$PROJECT_DIR$/.next/static/webpack/static/development/pages/guestbook.js.1e9189567d459b74c7da.hot-update.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/static/webpack/static/development/pages/guestbook.js.28ceec5fd1b1a91a1299.hot-update.js" beforeDir="false" afterPath="$PROJECT_DIR$/.next/static/webpack/static/development/pages/guestbook.js.28ceec5fd1b1a91a1299.hot-update.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/static/webpack/static/development/pages/guestbook.js.73fab75350585ee969f9.hot-update.js" beforeDir="false" afterPath="$PROJECT_DIR$/.next/static/webpack/static/development/pages/guestbook.js.73fab75350585ee969f9.hot-update.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/static/webpack/static/development/pages/guestbook.js.ba4877a7e68748bcfd43.hot-update.js" beforeDir="false" afterPath="$PROJECT_DIR$/.next/static/webpack/static/development/pages/guestbook.js.ba4877a7e68748bcfd43.hot-update.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/static/webpack/static/development/pages/guestbook.js.c5e9d5d5910eafbde9df.hot-update.js" beforeDir="false" afterPath="$PROJECT_DIR$/.next/static/webpack/static/development/pages/guestbook.js.c5e9d5d5910eafbde9df.hot-update.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/static/webpack/static/development/pages/guestbook.js.d0d626fccc7d688c2eb4.hot-update.js" beforeDir="false" afterPath="$PROJECT_DIR$/.next/static/webpack/static/development/pages/guestbook.js.d0d626fccc7d688c2eb4.hot-update.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/static/webpack/static/development/pages/guestbook.js.f6ce7e7fe22909b09ba7.hot-update.js" beforeDir="false" afterPath="$PROJECT_DIR$/.next/static/webpack/static/development/pages/guestbook.js.f6ce7e7fe22909b09ba7.hot-update.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/static/webpack/static/development/pages/index.js.4ba967d62c73329628b8.hot-update.js" beforeDir="false" afterPath="$PROJECT_DIR$/.next/static/webpack/static/development/pages/index.js.4ba967d62c73329628b8.hot-update.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/static/webpack/static/development/pages/index.js.4bb93a428a4faa5f54f5.hot-update.js" beforeDir="false" afterPath="$PROJECT_DIR$/.next/static/webpack/static/development/pages/index.js.4bb93a428a4faa5f54f5.hot-update.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/static/webpack/static/development/pages/index.js.6ee277eccd7dd5a372de.hot-update.js" beforeDir="false" afterPath="$PROJECT_DIR$/.next/static/webpack/static/development/pages/index.js.6ee277eccd7dd5a372de.hot-update.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/static/webpack/static/development/pages/index.js.8f29e4bb72bb2dc5989a.hot-update.js" beforeDir="false" afterPath="$PROJECT_DIR$/.next/static/webpack/static/development/pages/index.js.8f29e4bb72bb2dc5989a.hot-update.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/static/webpack/static/development/pages/index.js.949bac8fdb5ae9356052.hot-update.js" beforeDir="false" afterPath="$PROJECT_DIR$/.next/static/webpack/static/development/pages/index.js.949bac8fdb5ae9356052.hot-update.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/static/webpack/static/development/pages/index.js.a924a89caffc16e9da19.hot-update.js" beforeDir="false" afterPath="$PROJECT_DIR$/.next/static/webpack/static/development/pages/index.js.a924a89caffc16e9da19.hot-update.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/static/webpack/static/development/pages/index.js.ae673389df4be8756315.hot-update.js" beforeDir="false" afterPath="$PROJECT_DIR$/.next/static/webpack/static/development/pages/index.js.ae673389df4be8756315.hot-update.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/static/webpack/static/development/pages/index.js.c0a3e5022e2671197327.hot-update.js" beforeDir="false" afterPath="$PROJECT_DIR$/.next/static/webpack/static/development/pages/index.js.c0a3e5022e2671197327.hot-update.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/static/webpack/static/development/pages/index.js.e810ff7b925acc15856f.hot-update.js" beforeDir="false" afterPath="$PROJECT_DIR$/.next/static/webpack/static/development/pages/index.js.e810ff7b925acc15856f.hot-update.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/static/webpack/static/development/pages/index.js.ea2a145972ae646eeb1c.hot-update.js" beforeDir="false" afterPath="$PROJECT_DIR$/.next/static/webpack/static/development/pages/index.js.ea2a145972ae646eeb1c.hot-update.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/server.js" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pages/guestbook.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="527">
+              <caret line="40" column="19" selection-start-line="40" selection-start-column="19" selection-end-line="40" selection-end-column="19" />
+              <folding>
+                <element signature="e#744#769#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/server.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="527">
+              <caret line="31" column="4" selection-start-line="31" selection-start-column="4" selection-end-line="31" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/package.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="595">
+              <caret line="35" selection-start-line="35" selection-end-line="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/components/MyLayout.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="11" column="20" selection-start-line="11" selection-end-line="11" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pages/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pages/photo.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="11" column="27" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
+              <folding>
+                <element signature="e#0#25#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pages/profile.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="3" column="24" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SECOND">
+              <first_editor relative-caret-position="136">
+                <caret line="8" column="38" selection-start-line="8" selection-start-column="38" selection-end-line="8" selection-end-column="38" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>guestBook</find>
+      <find>show</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>post</replace>
+    </replaceStrings>
+    <dirStrings>
+      <dir>D:\myWorkspace\armando\remedyHealthMedia\RemedyHealthNextCodeTest</dir>
+    </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/pages/guestBook.js" />
+        <option value="$PROJECT_DIR$/components/Header.js" />
+        <option value="$PROJECT_DIR$/components/MyLayout.js" />
+        <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/server.js" />
+        <option value="$PROJECT_DIR$/pages/index.js" />
+        <option value="$PROJECT_DIR$/pages/guestbook.js" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-1687" />
+    <option name="y" value="23" />
+    <option name="width" value="1694" />
+    <option name="height" value="988" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="RemedyHealthNextCodeTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="RemedyHealthNextCodeTest" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="RemedyHealthNextCodeTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="RemedyHealthNextCodeTest" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="RemedyHealthNextCodeTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="RemedyHealthNextCodeTest" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.standard" value="true" />
+    <property name="node.js.path.for.package.standard" value="project" />
+    <property name="node.js.selected.package.standard" value="D:\myWorkspace\armando\remedyHealthMedia\RemedyHealthNextCodeTest\node_modules\standard" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b4cff930-681f-4e4e-aec5-04fff1c1f08f" name="Default Changelist" comment="" />
+      <created>1547080402280</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1547080402280</updated>
+      <workItem from="1547080403432" duration="194000" />
+      <workItem from="1547164572913" duration="6392000" />
+      <workItem from="1547172427350" duration="1786000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="8372000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-1688" y="-84" width="1696" height="1026" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1477684" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="npm" order="2" side_tool="true" />
+      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32997763" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/components/frame.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/modal.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/Header.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="21" lean-forward="true" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/photo.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="11" column="27" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/profile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="24" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SECOND">
+          <first_editor relative-caret-position="136">
+            <caret line="8" column="38" selection-start-line="8" selection-start-column="38" selection-end-line="8" selection-end-column="38" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="31" column="4" selection-start-line="31" selection-start-column="4" selection-end-line="31" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/old_index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="9" column="20" lean-forward="true" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="595">
+          <caret line="35" selection-start-line="35" selection-end-line="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/MyLayout.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="20" selection-start-line="11" selection-end-line="11" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/guestbook.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="40" column="19" selection-start-line="40" selection-start-column="19" selection-end-line="40" selection-end-column="19" />
+          <folding>
+            <element signature="e#744#769#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

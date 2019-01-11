@@ -13,10 +13,23 @@ app.prepare().then(() => {
     // A POSTED REQUEST HERE
   })
 
-  server.get('/api/guestbook', (req, res, next) => {
-    res.json({
-      posts: []
-    })
+  server.get('/api/guestbook', async (req, res, next) => {
+    const response = [
+      {
+        id: 1,
+        name: 'John Doe',
+        message: 'Hello dude!'
+      },
+      {
+        id: 2,
+        name: 'Jane Doe',
+        message: 'Hello Dudet!'
+      }
+    ]
+
+    res.json(
+      response
+    )
   })
 
   server.get('*', (req, res) => {

@@ -1,3 +1,7 @@
+import Layout from '../components/MyLayout.js'
+
 export default () => (
-  <div>NextJS App is running</div>
+  <Layout>
+    <p>Welcome to my site!</p>
+  </Layout>
 )
