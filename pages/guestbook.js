@@ -4,7 +4,7 @@ const axios = require('axios')
 
 class Guestbook extends React.Component {
   static async getInitialProps () {
-    const res = await axios.get('http://localhost:3000/api/guestbook');
+    const res = await axios.get('/api/guestbook');
     const posts = await res.data
     return { posts }
   }
