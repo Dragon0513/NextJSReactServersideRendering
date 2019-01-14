@@ -12,7 +12,7 @@
     "lint": "standard",
     "dev": "cross-env NODE_ENV=development npm start",
     "build": "next build",
-    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install && npm run build && npm start",
+    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install && npm run build",
     "start": "node ./server"
   },
   "repository": {
