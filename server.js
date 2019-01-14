@@ -5,27 +5,26 @@ const dev = process.env.NODE_ENV !== 'production'
 const app = next({ dev })
 const handle = app.getRequestHandler()
 
+const guestsData = []
+
 app.prepare().then(() => {
   const server = express()
   server.use(express.json())
 
   server.post('/api/guestbook', (req, res, next) => {
-    // A POSTED REQUEST HERE
+    const { fullname, message } = req.body
+
+    const newGuest = {
+      fullname,
+      message
+    }
+    guestsData.push(newGuest)
+
+    res.json(guestsData)
   })
 
   server.get('/api/guestbook', async (req, res, next) => {
-    const response = [
-      {
-        id: 1,
-        name: 'John Doe',
-        message: 'Hello dude!'
-      },
-      {
-        id: 2,
-        name: 'Jane Doe',
-        message: 'Hello Dudet!'
-      }
-    ]
+    const response = guestsData
 
     res.json(
       response

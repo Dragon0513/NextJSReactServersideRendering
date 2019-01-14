@@ -2,29 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b4cff930-681f-4e4e-aec5-04fff1c1f08f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/components/Header.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/MyLayout.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/guestbook.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/static/webpack/static/development/pages/guestbook.js.0c800dc1afdfe4101e2f.hot-update.js" beforeDir="false" afterPath="$PROJECT_DIR$/.next/static/webpack/static/development/pages/guestbook.js.0c800dc1afdfe4101e2f.hot-update.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/static/webpack/static/development/pages/guestbook.js.1e9189567d459b74c7da.hot-update.js" beforeDir="false" afterPath="$PROJECT_DIR$/.next/static/webpack/static/development/pages/guestbook.js.1e9189567d459b74c7da.hot-update.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/static/webpack/static/development/pages/guestbook.js.28ceec5fd1b1a91a1299.hot-update.js" beforeDir="false" afterPath="$PROJECT_DIR$/.next/static/webpack/static/development/pages/guestbook.js.28ceec5fd1b1a91a1299.hot-update.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/static/webpack/static/development/pages/guestbook.js.73fab75350585ee969f9.hot-update.js" beforeDir="false" afterPath="$PROJECT_DIR$/.next/static/webpack/static/development/pages/guestbook.js.73fab75350585ee969f9.hot-update.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/static/webpack/static/development/pages/guestbook.js.ba4877a7e68748bcfd43.hot-update.js" beforeDir="false" afterPath="$PROJECT_DIR$/.next/static/webpack/static/development/pages/guestbook.js.ba4877a7e68748bcfd43.hot-update.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/static/webpack/static/development/pages/guestbook.js.c5e9d5d5910eafbde9df.hot-update.js" beforeDir="false" afterPath="$PROJECT_DIR$/.next/static/webpack/static/development/pages/guestbook.js.c5e9d5d5910eafbde9df.hot-update.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/static/webpack/static/development/pages/guestbook.js.d0d626fccc7d688c2eb4.hot-update.js" beforeDir="false" afterPath="$PROJECT_DIR$/.next/static/webpack/static/development/pages/guestbook.js.d0d626fccc7d688c2eb4.hot-update.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/static/webpack/static/development/pages/guestbook.js.f6ce7e7fe22909b09ba7.hot-update.js" beforeDir="false" afterPath="$PROJECT_DIR$/.next/static/webpack/static/development/pages/guestbook.js.f6ce7e7fe22909b09ba7.hot-update.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/static/webpack/static/development/pages/index.js.4ba967d62c73329628b8.hot-update.js" beforeDir="false" afterPath="$PROJECT_DIR$/.next/static/webpack/static/development/pages/index.js.4ba967d62c73329628b8.hot-update.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/static/webpack/static/development/pages/index.js.4bb93a428a4faa5f54f5.hot-update.js" beforeDir="false" afterPath="$PROJECT_DIR$/.next/static/webpack/static/development/pages/index.js.4bb93a428a4faa5f54f5.hot-update.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/static/webpack/static/development/pages/index.js.6ee277eccd7dd5a372de.hot-update.js" beforeDir="false" afterPath="$PROJECT_DIR$/.next/static/webpack/static/development/pages/index.js.6ee277eccd7dd5a372de.hot-update.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/static/webpack/static/development/pages/index.js.8f29e4bb72bb2dc5989a.hot-update.js" beforeDir="false" afterPath="$PROJECT_DIR$/.next/static/webpack/static/development/pages/index.js.8f29e4bb72bb2dc5989a.hot-update.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/static/webpack/static/development/pages/index.js.949bac8fdb5ae9356052.hot-update.js" beforeDir="false" afterPath="$PROJECT_DIR$/.next/static/webpack/static/development/pages/index.js.949bac8fdb5ae9356052.hot-update.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/static/webpack/static/development/pages/index.js.a924a89caffc16e9da19.hot-update.js" beforeDir="false" afterPath="$PROJECT_DIR$/.next/static/webpack/static/development/pages/index.js.a924a89caffc16e9da19.hot-update.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/static/webpack/static/development/pages/index.js.ae673389df4be8756315.hot-update.js" beforeDir="false" afterPath="$PROJECT_DIR$/.next/static/webpack/static/development/pages/index.js.ae673389df4be8756315.hot-update.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/static/webpack/static/development/pages/index.js.c0a3e5022e2671197327.hot-update.js" beforeDir="false" afterPath="$PROJECT_DIR$/.next/static/webpack/static/development/pages/index.js.c0a3e5022e2671197327.hot-update.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/static/webpack/static/development/pages/index.js.e810ff7b925acc15856f.hot-update.js" beforeDir="false" afterPath="$PROJECT_DIR$/.next/static/webpack/static/development/pages/index.js.e810ff7b925acc15856f.hot-update.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/static/webpack/static/development/pages/index.js.ea2a145972ae646eeb1c.hot-update.js" beforeDir="false" afterPath="$PROJECT_DIR$/.next/static/webpack/static/development/pages/index.js.ea2a145972ae646eeb1c.hot-update.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/next.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/Header.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/MyLayout.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/MyLayout.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/guestbook.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/guestbook.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/server.js" afterDir="false" />
     </list>
@@ -42,56 +26,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pages/guestbook.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="527">
-              <caret line="40" column="19" selection-start-line="40" selection-start-column="19" selection-end-line="40" selection-end-column="19" />
-              <folding>
-                <element signature="e#744#769#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/server.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="527">
-              <caret line="31" column="4" selection-start-line="31" selection-start-column="4" selection-end-line="31" selection-end-column="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/package.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="595">
-              <caret line="35" selection-start-line="35" selection-end-line="35" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/components/MyLayout.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="20" selection-start-line="11" selection-end-line="11" selection-end-column="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pages/index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pages/photo.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="11" column="27" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
+            <state relative-caret-position="61">
+              <caret line="32" column="43" selection-start-line="32" selection-start-column="43" selection-end-line="32" selection-end-column="43" />
               <folding>
                 <element signature="e#0#25#0" expanded="true" />
               </folding>
@@ -100,10 +36,70 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pages/profile.js">
+        <entry file="file://$PROJECT_DIR$/server.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="357">
+              <caret line="21" selection-start-line="21" selection-end-line="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/components/MyLayout.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/components/Header.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="367">
+              <caret line="47" column="10" selection-start-line="47" selection-start-column="10" selection-end-line="47" selection-end-column="10" />
+              <folding>
+                <element signature="e#0#28#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pages/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="13" column="27" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="27" />
+              <folding>
+                <element signature="e#0#46#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/css/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="13" column="16" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/package.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="629">
+              <caret line="38" selection-start-line="38" selection-end-line="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/next.config.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="51">
-              <caret line="3" column="24" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
+              <caret line="3" column="2" selection-start-line="3" selection-start-column="2" selection-end-line="3" selection-end-column="2" />
             </state>
           </provider>
         </entry>
@@ -120,15 +116,33 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/components/GuestForm.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1972">
+              <caret line="116" column="35" selection-start-line="116" selection-start-column="35" selection-end-line="116" selection-end-column="35" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
       <find>guestBook</find>
       <find>show</find>
+      <find>email</find>
+      <find>password</find>
+      <find>name</find>
     </findStrings>
     <replaceStrings>
       <replace>post</replace>
+      <replace>name</replace>
+      <replace>message</replace>
+      <replace>fullname</replace>
     </replaceStrings>
     <dirStrings>
       <dir>D:\myWorkspace\armando\remedyHealthMedia\RemedyHealthNextCodeTest</dir>
@@ -141,11 +155,16 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/pages/guestBook.js" />
-        <option value="$PROJECT_DIR$/components/Header.js" />
         <option value="$PROJECT_DIR$/components/MyLayout.js" />
         <option value="$PROJECT_DIR$/package.json" />
-        <option value="$PROJECT_DIR$/server.js" />
+        <option value="$PROJECT_DIR$/assets/styles.css" />
         <option value="$PROJECT_DIR$/pages/index.js" />
+        <option value="$PROJECT_DIR$/assets/css/style.css" />
+        <option value="$PROJECT_DIR$/next.config.js" />
+        <option value="$PROJECT_DIR$/server.js" />
+        <option value="$PROJECT_DIR$/pages/_document.js" />
+        <option value="$PROJECT_DIR$/components/Header.js" />
+        <option value="$PROJECT_DIR$/components/GuestForm.js" />
         <option value="$PROJECT_DIR$/pages/guestbook.js" />
       </list>
     </option>
@@ -161,7 +180,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -183,6 +201,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -218,12 +237,15 @@
       <updated>1547080402280</updated>
       <workItem from="1547080403432" duration="194000" />
       <workItem from="1547164572913" duration="6392000" />
-      <workItem from="1547172427350" duration="1786000" />
+      <workItem from="1547172427350" duration="1977000" />
+      <workItem from="1547479603445" duration="2100000" />
+      <workItem from="1547481740788" duration="5680000" />
+      <workItem from="1547493960161" duration="8874000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8372000" />
+    <option name="totallyTimeSpent" value="25217000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1688" y="-84" width="1696" height="1026" extended-state="6" />
@@ -253,45 +275,16 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/components/frame.js">
+    <entry file="file://$PROJECT_DIR$/components/frame.js" />
+    <entry file="file://$PROJECT_DIR$/components/modal.js" />
+    <entry file="file://$PROJECT_DIR$/pages/photo.js" />
+    <entry file="file://$PROJECT_DIR$/pages/profile.js" />
+    <entry file="file://$PROJECT_DIR$/pages/old_index.js" />
+    <entry file="file://$PROJECT_DIR$/assets/styles.css" />
+    <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#25#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/components/modal.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#25#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/components/Header.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="21" lean-forward="true" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/photo.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="11" column="27" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
-          <folding>
-            <element signature="e#0#25#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/profile.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="24" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
+        <state relative-caret-position="629">
+          <caret line="38" selection-start-line="38" selection-end-line="38" />
         </state>
       </provider>
     </entry>
@@ -305,47 +298,77 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/server.js">
+    <entry file="file://$PROJECT_DIR$/assets/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="31" column="4" selection-start-line="31" selection-start-column="4" selection-end-line="31" selection-end-column="4" />
+        <state relative-caret-position="221">
+          <caret line="13" column="16" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/old_index.js">
+    <entry file="file://$PROJECT_DIR$/next.config.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="9" column="20" lean-forward="true" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
+        <state relative-caret-position="51">
+          <caret line="3" column="2" selection-start-line="3" selection-start-column="2" selection-end-line="3" selection-end-column="2" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
+    <entry file="file://$PROJECT_DIR$/pages/_document.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="595">
-          <caret line="35" selection-start-line="35" selection-end-line="35" />
+        <state relative-caret-position="340">
+          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/Header.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="367">
+          <caret line="47" column="10" selection-start-line="47" selection-start-column="10" selection-end-line="47" selection-end-column="10" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/components/MyLayout.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="20" selection-start-line="11" selection-end-line="11" selection-end-column="20" />
+        <state relative-caret-position="34">
+          <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pages/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+        <state relative-caret-position="221">
+          <caret line="13" column="27" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="27" />
+          <folding>
+            <element signature="e#0#46#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/GuestForm.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1972">
+          <caret line="116" column="35" selection-start-line="116" selection-start-column="35" selection-end-line="116" selection-end-column="35" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pages/guestbook.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="40" column="19" selection-start-line="40" selection-start-column="19" selection-end-line="40" selection-end-column="19" />
+        <state relative-caret-position="61">
+          <caret line="32" column="43" selection-start-line="32" selection-start-column="43" selection-end-line="32" selection-end-column="43" />
           <folding>
-            <element signature="e#744#769#0" expanded="true" />
+            <element signature="e#0#25#0" expanded="true" />
           </folding>
         </state>
       </provider>

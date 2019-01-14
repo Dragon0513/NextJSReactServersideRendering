@@ -1,0 +1,17 @@
+.mainContainer {
+    float: left;
+    width: 100%;
+    margin: 10px;
+}
+
+.guestbookContainer {
+    float: left;
+    width: 100%;
+    margin: 10px;
+}
+
+.guestMessageRow {
+    float: left;
+    width: 100%;
+    margin: 10px;
+}

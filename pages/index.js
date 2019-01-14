@@ -1,7 +1,23 @@
 import Layout from '../components/MyLayout.js'
+import Basic from '../components/GuestForm'
+import React from 'react'
+const axios = require('axios')
+
+async function handleSubmit(values) {
+  let data = values;
+
+  await axios.post('http://localhost:3000/api/guestbook', data)
+  .then(async function (response) {
+    console.log(response)
+    return await response
+  })
+  .catch(function (error) {
+    return error
+  });
+}
 
 export default () => (
   <Layout>
-    <p>Welcome to my site!</p>
+    <Basic handleSubmit={handleSubmit} />
   </Layout>
 )

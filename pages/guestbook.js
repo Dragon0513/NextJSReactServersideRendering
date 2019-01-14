@@ -1,19 +1,16 @@
 import React from 'react'
 import Layout from '../components/MyLayout.js'
-import Router from 'next/router'
-import Link from 'next/link'
-import fetch from 'isomorphic-unfetch'
+const axios = require('axios')
 
 class Guestbook extends React.Component {
   static async getInitialProps () {
-    const res = await fetch('http://localhost:3000/api/guestbook')
-    const posts = await res.json()
+    const res = await axios.get('http://localhost:3000/api/guestbook');
+    const posts = await res.data
     return { posts }
   }
 
   constructor (props) {
     super(props)
-    //this.onKeyDown = this.onKeyDown.bind(this)
   }
 
   componentWillMount() {
@@ -26,47 +23,48 @@ class Guestbook extends React.Component {
     const { posts } = this.props
 
     return (
-      <div className='list'>
+      <div>
         {
           <Layout>
-          <ul>
-            {posts.map((post) => (
-              <li key={post.id}>
-                <Link as={`/p/${post.id}`} href={`/post?id=${post.id}`}>
-                  <a>{post.name}</a>
-                </Link>
-              </li>
-            ))}
-          </ul>
+            <div>
+            <div className="guestbook-container">
+              {posts.length > 0 && posts.map((post, i) => (
+                <div key={i} className="guest-message-row">
+                  <div style={{marginBottom: '5px'}}>{post.fullname}</div>
+                  <span style={{fontWeight: 'bold'}}>Message:</span> <br />
+                  <div style={{margin: '5px'}}>{post.message}</div>
+                </div>
+              ))}
+              {posts.length === 0 && <div className="no-entries">No entries exist</div>}
+            </div>
+            </div>
           </Layout>
-
         }
         <style jsx>{`
-          // .list {
-          //   padding: 50px;
-          //   text-align: center;
-          // }
-
-          .photo {
-            display: inline-block;
-          }
-
-          .photoLink {
-            color: #333;
-            verticalAlign: middle;
-            cursor: pointer;
-            background: #eee;
-            display: inline-block;
-            width: 250px;
-            height: 250px;
-            line-height: 250px;
+          .no-entries {
             margin: 10px;
-            border: 2px solid transparent;
           }
 
-          .photoLink:hover {
-            borderColor: blue;
+          .guestbook-container {
+            margin-top: 10px;
+            border-radius: 5px;
+            background-color: #f2f2f2;
+            padding: 20px;
+            width: '100%',
+            marginTop: '10px'
           }
+
+          .guest-message-row {
+            font-family: arial;
+            border-bottom: 1px solid black;
+            margin-bottom: 5px;
+            width: 50%;
+          }
+
+          h2 {
+            font-family: arial
+          }
+
         `}</style>
       </div>
     )
