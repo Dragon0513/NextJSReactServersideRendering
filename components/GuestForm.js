@@ -1,10 +1,10 @@
-import React from 'react';
-import { Formik, ErrorMessage  } from 'formik';
+import React from 'react'
+import { Formik, ErrorMessage } from 'formik'
 import Router from 'next/router'
 
 const divStyle = {
   margin: '10px'
-};
+}
 
 const errorMessage = {
   width: '100%',
@@ -18,18 +18,18 @@ const Basic = (props) => (
     <Formik
       initialValues={{ fullname: '', message: '' }}
       validate={values => {
-        let errors = {};
+        let errors = {}
         if (!values.fullname) {
-          errors.fullname = 'Required';
+          errors.fullname = 'Required'
         }
         if (!values.message) {
-          errors.message = 'Required';
+          errors.message = 'Required'
         }
-        return errors;
+        return errors
       }}
       onSubmit={(values, { setSubmitting }) => {
         props.handleSubmit(values).then(function(response) {
-          setSubmitting(false);
+          setSubmitting(false)
           Router.push(`/guestbook`)
         })
       }}
@@ -39,30 +39,30 @@ const Basic = (props) => (
         handleChange,
         handleBlur,
         handleSubmit,
-        isSubmitting,
+        isSubmitting
       }) => (
         <form onSubmit={handleSubmit}>
-          <label htmlFor="fullName">Full Name</label>
+          <label htmlFor='fullName'>Full Name</label>
           <input
-            type="text"
-            name="fullname"
-            placeholder="Enter your full name"
+            type='text'
+            name='fullname'
+            placeholder='Enter your full name'
             onChange={handleChange}
             onBlur={handleBlur}
             value={values.fullname}
           />
-          <ErrorMessage component="div" name="fullname" style={errorMessage}/>
-          <label htmlFor="fullname">Message</label>
+          <ErrorMessage component='div' name='fullname' style={errorMessage}/>
+          <label htmlFor='fullname'>Message</label>
           <input
-            type="text"
-            name="message"
-            placeholder="Enter a message"
+            type='text'
+            name='message'
+            placeholder='Enter a message'
             onChange={handleChange}
             onBlur={handleBlur}
             value={values.message}
           />
-          <ErrorMessage component="div" name="message" style={errorMessage}/>
-          <input type="submit" value="Submit" disabled={isSubmitting} />
+          <ErrorMessage component='div' name='message' style={errorMessage}/>
+          <input type='submit' value='Submit' disabled={isSubmitting} />
         </form>
       )}
     </Formik>
@@ -159,6 +159,6 @@ const Basic = (props) => (
       }
     `}</style>
   </div>
-);
+)
 
-export default Basic;
+export default Basic

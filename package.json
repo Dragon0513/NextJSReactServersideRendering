@@ -8,13 +8,20 @@
     "npm": "5.0.3"
   },
   "jest": {
-    "setupFiles": ["./setupTests.js"]
+    "setupFiles": [
+      "./setupTests.js"
+    ]
+  },
+  "standard": {
+    "plugins": [
+      "flowtype"
+    ],
+    "parser": "babel-eslint"
   },
   "scripts": {
     "test": "jest",
     "test:watch": "jest --watch",
     "test:coverage": "jest --coverage",
-    "lint": "standard",
     "dev": "cross-env NODE_ENV=development npm start",
     "build": "next build",
     "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install && npm run build",
@@ -35,17 +42,16 @@
     "axios": "^0.18.0",
     "express": "^4.16.4",
     "formik": "^1.4.2",
-    "micro-form": "^2.0.5",
     "next": "^7.0.2",
-    "nodemon": "^1.18.9",
     "react": "^16.6.3",
-    "react-bootstrap": "^0.32.4",
     "react-dom": "^16.6.3"
   },
   "devDependencies": {
+    "@babel/core": "^7.1.2",
     "acorn": "^6.0.5",
     "acorn-jsx": "^5.0.1",
-    "babel-core": "^6.26.3",
+    "babel-core": "^7.0.0-bridge",
+    "babel-eslint": "^10.0.1",
     "babel-jest": "^23.6.0",
     "babel-loader": "^8.0.5",
     "babel-preset-env": "^1.7.0",
@@ -54,10 +60,14 @@
     "enzyme": "^3.8.0",
     "enzyme-adapter-react-16": "^1.7.1",
     "eslint": "^5.12.0",
+    "eslint-config-standard": "^12.0.0",
     "eslint-loader": "^2.1.1",
+    "eslint-plugin-flowtype": "^3.2.1",
     "eslint-plugin-react": "^7.12.3",
     "espree": "^5.0.0",
     "jest": "^23.6.0",
+    "react-addons-test-utils": "^15.6.2",
+    "react-test-renderer": "^16.7.0",
     "standard": "^12.0.1"
   }
 }

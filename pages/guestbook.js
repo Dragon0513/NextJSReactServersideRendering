@@ -4,17 +4,13 @@ const axios = require('axios')
 
 class Guestbook extends React.Component {
   static async getInitialProps () {
-    const res = await axios.get('/api/guestbook');
+    const res = await axios.get('/api/guestbook')
     const posts = await res.data
 
     return { posts }
   }
 
-  constructor (props) {
-    super(props)
-  }
-
-  componentWillMount() {
+  componentWillMount () {
     this.setState({
       posts: this.props.posts
     })
@@ -28,16 +24,16 @@ class Guestbook extends React.Component {
         {
           <Layout>
             <div>
-            <div className="guestbook-container">
-              {posts.length > 0 && posts.map((post, i) => (
-                <div key={i} className="guest-message-row">
-                  <div style={{marginBottom: '5px'}}>{post.fullname}</div>
-                  <span style={{fontWeight: 'bold'}}>Message:</span> <br />
-                  <div style={{margin: '5px'}}>{post.message}</div>
-                </div>
-              ))}
-              {posts.length === 0 && <div className="no-entries">No entries exist</div>}
-            </div>
+              <div className='guestbook-container'>
+                {posts.length > 0 && posts.map((post, i) => (
+                  <div key={i} className='guest-message-row'>
+                    <div style={{ marginBottom: '5px' }}>{post.fullname}</div>
+                    <span style={{ fontWeight: 'bold' }}>Message:</span> <br />
+                    <div style={{ margin: '5px' }}>{post.message}</div>
+                  </div>
+                ))}
+                {posts.length === 0 && <div className='no-entries'>No entries exist</div>}
+              </div>
             </div>
           </Layout>
         }

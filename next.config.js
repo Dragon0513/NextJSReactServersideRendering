@@ -8,7 +8,7 @@ module.exports = {
         loader: 'eslint-loader',
         options: {
           // eslint options (if necessary)
-          emitError: true
+          emitError: dev
         }
       })
     }
