@@ -1,7 +1,8 @@
 # nextjs-challenge-boilerplate
 A basic boilerplate for nextjs challenge
 
-Hosted here: https://nextjs-example.herokuapp.com/
+Hosted on Heroku: http://nextjs-example.musto.io/
+Auto deployed when committed to Master branch
 
 You are responsible for writing a node app using nextjs. Your app will consist of two pages (a form, and a feed), and a server that reads and writes to the feed.
 
