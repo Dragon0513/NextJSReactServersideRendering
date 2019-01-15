@@ -1,0 +1,28 @@
+{
+  "env": {
+    "es6": true,
+    "commonjs": true
+  },
+  "extends": [
+    "eslint:recommended",
+    "plugin:react/recommended"
+  ],
+  "parserOptions": {
+    "ecmaVersion": 9,
+    "ecmaFeatures": {
+      "jsx": true
+    },
+    "sourceType": "module"
+  },
+  "plugins": ["react"],
+  "rules": {
+    "react/jsx-uses-vars": [2],
+    "no-unused-vars": 0,
+    "no-undef": 0,
+    "react/prop-types": 0,
+    "react/jsx-props-no-multi-spaces": 0,
+    "no-console": 0,
+    "react/display-name": 0,
+    "react/no-deprecated": 0
+  }
+}

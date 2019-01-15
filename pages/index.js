@@ -6,14 +6,15 @@ const axios = require('axios')
 async function handleSubmit(values) {
   let data = values;
 
-  await axios.post('/api/guestbook', data)
-  .then(async function (response) {
-    console.log(response)
-    return await response
+  const response = await axios.post('/api/guestbook', data)
+  .then(function (response) {
+    return response
   })
   .catch(function (error) {
     return error
   });
+
+  return await response;
 }
 
 export default () => (

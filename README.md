@@ -1,3 +1,11 @@
+TODO:
+Add redirect message and logic (from index page where state exists)
+Add validation to prevent duplicat guests
+Add clear?
+Update Readme with notes
+
+
+
 # nextjs-challenge-boilerplate
 A basic boilerplate for nextjs challenge
 
@@ -17,14 +25,12 @@ Feel free to add the following
 1. Add some UI/UX features
 2. Unit tests (coverage)
 3. Code linting
+I started setting these to warning just so as I was coding it would still build.
 
-http://nextjs-example.musto.io/
+References:
 
-My Steps
-* Complete task with basic code example, then create a version tag
-* Continue changes to implement css, unit tests, linting as developing ...
-* 
+https://www.npmjs.com/package/eslint-plugin-react
 
+https://medium.com/codeclan/testing-react-with-jest-and-enzyme-20505fec4675
 
-
-https://github.com/amusto/RemedyHealthNextCodeTest/wiki
+https://nextjs-example.herokuapp.com/

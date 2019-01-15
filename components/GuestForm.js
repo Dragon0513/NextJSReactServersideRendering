@@ -2,9 +2,9 @@ import React from 'react';
 import { Formik, ErrorMessage  } from 'formik';
 import Router from 'next/router'
 
-const formStyle = {
-  marginTop: '10px'
-}
+const divStyle = {
+  margin: '10px'
+};
 
 const errorMessage = {
   width: '100%',
@@ -14,7 +14,7 @@ const errorMessage = {
 }
 
 const Basic = (props) => (
-  <div style={formStyle}>
+  <div style={divStyle}>
     <Formik
       initialValues={{ fullname: '', message: '' }}
       validate={values => {
@@ -36,8 +36,6 @@ const Basic = (props) => (
     >
       {({
         values,
-        errors,
-        touched,
         handleChange,
         handleBlur,
         handleSubmit,

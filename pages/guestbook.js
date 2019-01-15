@@ -6,6 +6,7 @@ class Guestbook extends React.Component {
   static async getInitialProps () {
     const res = await axios.get('/api/guestbook');
     const posts = await res.data
+
     return { posts }
   }
 
@@ -43,6 +44,7 @@ class Guestbook extends React.Component {
         <style jsx>{`
           .no-entries {
             margin: 10px;
+            font-family: arial;
           }
 
           .guestbook-container {
