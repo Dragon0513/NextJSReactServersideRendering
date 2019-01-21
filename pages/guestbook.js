@@ -23,23 +23,21 @@ class Guestbook extends React.Component {
 
     return (
       <div>
-        {
-          <Layout>
-            <h2>Guestbook Messages!</h2>
-            <div>
-              <div className='guestbook-container'>
-                {posts.length > 0 && posts.map((post, i) => (
-                  <div key={i} className='guest-message-row'>
-                    <div style={{ marginBottom: '5px' }}>{post.fullname}</div>
-                    <span style={{ fontWeight: 'bold' }}>Message:</span> <br />
-                    <div style={{ margin: '5px' }}>{post.message}</div>
-                  </div>
-                ))}
-                {posts.length === 0 && <div className='no-entries'>No entries exist</div>}
-              </div>
+        <Layout>
+          <h2>Guestbook Messages!</h2>
+          <div>
+            <div className='guestbook-container'>
+              {posts.length > 0 && posts.map((post, i) => (
+                <div key={i} className='guest-message-row'>
+                  <div style={{ marginBottom: '5px' }}>{post.fullname}</div>
+                  <span style={{ fontWeight: 'bold' }}>Message:</span> <br />
+                  <div style={{ margin: '5px' }}>{post.message}</div>
+                </div>
+              ))}
+              {posts.length === 0 && <div className='no-entries'>No entries exist</div>}
             </div>
-          </Layout>
-        }
+          </div>
+        </Layout>
         <style jsx>{`
           .no-entries {
             margin: 10px;
