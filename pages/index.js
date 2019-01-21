@@ -6,7 +6,7 @@ const axios = require('axios')
 async function handleSubmit (values) {
   let data = values
 
-  const response = await axios.post('/api/guestbook', data)
+  const response = axios.post('/api/guestbook', data)
     .then(function (response) {
       return response
     })

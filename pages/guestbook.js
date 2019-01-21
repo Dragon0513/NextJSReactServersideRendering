@@ -3,21 +3,23 @@ import Layout from '../components/MyLayout.js'
 const axios = require('axios')
 
 class Guestbook extends React.Component {
-  static async getInitialProps () {
-    const res = await axios.get('/api/guestbook')
-    const posts = await res.data
-
-    return { posts }
+  constructor (props) {
+    super(props)
+    this.state = {
+      posts: []
+    }
   }
 
-  componentWillMount () {
+  async componentDidMount () {
+    const res = await axios.get('/api/guestbook')
+
     this.setState({
-      posts: this.props.posts
+      posts: res.data
     })
   }
 
   render () {
-    const { posts } = this.props
+    const { posts } = this.state
 
     return (
       <div>
