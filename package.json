@@ -33,6 +33,7 @@
   },
   "homepage": "https://github.com/remedyhealth/nextjs-challenge-boilerplate#readme",
   "dependencies": {
+    "@babel/core": "^7.2.2",
     "axios": "^0.18.0",
     "body-parser": "^1.18.3",
     "express": "^4.16.4",
@@ -42,7 +43,6 @@
     "react-dom": "^16.6.3"
   },
   "devDependencies": {
-    "@babel/core": "^7.2.2",
     "acorn": "^6.0.5",
     "acorn-jsx": "^5.0.1",
     "babel-core": "^7.0.0-bridge.0",
