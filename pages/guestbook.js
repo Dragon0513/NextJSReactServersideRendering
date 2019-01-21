@@ -25,6 +25,7 @@ class Guestbook extends React.Component {
       <div>
         {
           <Layout>
+            <h2>Guestbook Messages!</h2>
             <div>
               <div className='guestbook-container'>
                 {posts.length > 0 && posts.map((post, i) => (

@@ -1,0 +1,327 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`With Snapshot Testing Guestbook should render correctly in "debug" mode 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Guestbook
+    debug={true}
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <Layout>
+          <h2
+            className="jsx-795434016"
+          >
+            Guestbook Messages!
+          </h2>
+          <div
+            className="jsx-795434016"
+          >
+            <div
+              className="jsx-795434016 guestbook-container"
+            >
+              <div
+                className="jsx-795434016 no-entries"
+              >
+                No entries exist
+              </div>
+            </div>
+          </div>
+        </Layout>,
+        <JSXStyle
+          css=".no-entries.jsx-795434016{margin:10px;font-family:arial;}.guestbook-container.jsx-795434016{margin-top:10px;border-radius:5px;background-color:#f2f2f2;padding:20px;width:'100%', marginTop:'10px';}.guest-message-row.jsx-795434016{font-family:arial;border-bottom:1px solid black;margin-bottom:5px;width:50%;}h2.jsx-795434016{font-family:arial;}"
+          styleId="795434016"
+        />,
+      ],
+      "className": "jsx-795434016",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "children": Array [
+            <h2
+              className="jsx-795434016"
+            >
+              Guestbook Messages!
+            </h2>,
+            <div
+              className="jsx-795434016"
+            >
+              <div
+                className="jsx-795434016 guestbook-container"
+              >
+                <div
+                  className="jsx-795434016 no-entries"
+                >
+                  No entries exist
+                </div>
+              </div>
+            </div>,
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Guestbook Messages!",
+              "className": "jsx-795434016",
+            },
+            "ref": null,
+            "rendered": "Guestbook Messages!",
+            "type": "h2",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <div
+                className="jsx-795434016 guestbook-container"
+              >
+                <div
+                  className="jsx-795434016 no-entries"
+                >
+                  No entries exist
+                </div>
+              </div>,
+              "className": "jsx-795434016",
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  false,
+                  <div
+                    className="jsx-795434016 no-entries"
+                  >
+                    No entries exist
+                  </div>,
+                ],
+                "className": "jsx-795434016 guestbook-container",
+              },
+              "ref": null,
+              "rendered": Array [
+                false,
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "No entries exist",
+                    "className": "jsx-795434016 no-entries",
+                  },
+                  "ref": null,
+                  "rendered": "No entries exist",
+                  "type": "div",
+                },
+              ],
+              "type": "div",
+            },
+            "type": "div",
+          },
+        ],
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "css": ".no-entries.jsx-795434016{margin:10px;font-family:arial;}.guestbook-container.jsx-795434016{margin-top:10px;border-radius:5px;background-color:#f2f2f2;padding:20px;width:'100%', marginTop:'10px';}.guest-message-row.jsx-795434016{font-family:arial;border-bottom:1px solid black;margin-bottom:5px;width:50%;}h2.jsx-795434016{font-family:arial;}",
+          "styleId": "795434016",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <Layout>
+            <h2
+              className="jsx-795434016"
+            >
+              Guestbook Messages!
+            </h2>
+            <div
+              className="jsx-795434016"
+            >
+              <div
+                className="jsx-795434016 guestbook-container"
+              >
+                <div
+                  className="jsx-795434016 no-entries"
+                >
+                  No entries exist
+                </div>
+              </div>
+            </div>
+          </Layout>,
+          <JSXStyle
+            css=".no-entries.jsx-795434016{margin:10px;font-family:arial;}.guestbook-container.jsx-795434016{margin-top:10px;border-radius:5px;background-color:#f2f2f2;padding:20px;width:'100%', marginTop:'10px';}.guest-message-row.jsx-795434016{font-family:arial;border-bottom:1px solid black;margin-bottom:5px;width:50%;}h2.jsx-795434016{font-family:arial;}"
+            styleId="795434016"
+          />,
+        ],
+        "className": "jsx-795434016",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "children": Array [
+              <h2
+                className="jsx-795434016"
+              >
+                Guestbook Messages!
+              </h2>,
+              <div
+                className="jsx-795434016"
+              >
+                <div
+                  className="jsx-795434016 guestbook-container"
+                >
+                  <div
+                    className="jsx-795434016 no-entries"
+                  >
+                    No entries exist
+                  </div>
+                </div>
+              </div>,
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Guestbook Messages!",
+                "className": "jsx-795434016",
+              },
+              "ref": null,
+              "rendered": "Guestbook Messages!",
+              "type": "h2",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <div
+                  className="jsx-795434016 guestbook-container"
+                >
+                  <div
+                    className="jsx-795434016 no-entries"
+                  >
+                    No entries exist
+                  </div>
+                </div>,
+                "className": "jsx-795434016",
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    false,
+                    <div
+                      className="jsx-795434016 no-entries"
+                    >
+                      No entries exist
+                    </div>,
+                  ],
+                  "className": "jsx-795434016 guestbook-container",
+                },
+                "ref": null,
+                "rendered": Array [
+                  false,
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "No entries exist",
+                      "className": "jsx-795434016 no-entries",
+                    },
+                    "ref": null,
+                    "rendered": "No entries exist",
+                    "type": "div",
+                  },
+                ],
+                "type": "div",
+              },
+              "type": "div",
+            },
+          ],
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "css": ".no-entries.jsx-795434016{margin:10px;font-family:arial;}.guestbook-container.jsx-795434016{margin-top:10px;border-radius:5px;background-color:#f2f2f2;padding:20px;width:'100%', marginTop:'10px';}.guest-message-row.jsx-795434016{font-family:arial;border-bottom:1px solid black;margin-bottom:5px;width:50%;}h2.jsx-795434016{font-family:arial;}",
+            "styleId": "795434016",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;

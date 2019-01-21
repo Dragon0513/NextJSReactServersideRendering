@@ -30,7 +30,7 @@ Running local dev (Code Linting) -
 "npm run dev" - 
 Code linting is enabled via next.config.js (But it's not running after babel setup. I'll review later.)
 
-Testing with Jest and Enzyme (npm run test)
+Testing with Jest and Enzyme (Terminal: npm run test)
 Runs all tests (With snapshots for react)
 
 TODO:
@@ -50,6 +50,8 @@ I started setting these to warning just so as I was coding it would still build.
 References:
 
 https://www.npmjs.com/package/eslint-plugin-react
+
+https://github.com/zeit/next.js/tree/master/examples/with-jest
 
 https://medium.com/codeclan/testing-react-with-jest-and-enzyme-20505fec4675
 
