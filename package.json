@@ -12,6 +12,12 @@
       "./setupTests.js"
     ]
   },
+  "standard": {
+    "plugins": [
+      "flowtype"
+    ],
+    "parser": "babel-eslint"
+  },
   "scripts": {
     "test": "jest",
     "test:watch": "jest --watch",
