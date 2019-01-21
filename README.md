@@ -55,3 +55,5 @@ https://github.com/zeit/next.js/tree/master/examples/with-jest
 
 https://medium.com/codeclan/testing-react-with-jest-and-enzyme-20505fec4675
 
+https://stackoverflow.com/questions/52067944/cannot-find-module-babel-core/52067984
+
