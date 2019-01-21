@@ -3,21 +3,6 @@
   "version": "1.0.0",
   "description": "A basic boilerplate for nextjs challenge",
   "main": "index.js",
-  "engines": {
-    "node": "8.1.1",
-    "npm": "5.0.3"
-  },
-  "jest": {
-    "setupFiles": [
-      "./setupTests.js"
-    ]
-  },
-  "standard": {
-    "plugins": [
-      "flowtype"
-    ],
-    "parser": "babel-eslint"
-  },
   "scripts": {
     "test": "jest",
     "test:watch": "jest --watch",
