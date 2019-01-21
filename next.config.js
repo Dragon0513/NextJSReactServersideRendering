@@ -1,18 +1,12 @@
 module.exports = {
-  webpack: config => {
-    config.module.rules.push(
-      {
-        test: /\.css$/,
-        use: ['to-string-loader', 'css-loader']
-      },
-      {
-        test: /\.js$/,
-        exclude: /(node_modules)/,
-        use: {
-          loader: 'babel-loader'
-        }
-      }
-    )
+  webpack: (config, { buildId, dev, isServer, defaultLoaders }) => {
+    // Perform customizations to webpack config
+    // Important: return the modified config
+    return config
+  },
+  webpackDevMiddleware: config => {
+    // Perform customizations to webpack dev middleware config
+    // Important: return the modified config
     return config
   }
 }
