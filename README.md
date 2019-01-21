@@ -47,13 +47,15 @@ Feel free to add the following
 3. Code linting
 I started setting these to warning just so as I was coding it would still build.
 
-References:
+**References:**
 
 https://www.npmjs.com/package/eslint-plugin-react
 
 https://github.com/zeit/next.js/tree/master/examples/with-jest
 
 https://medium.com/codeclan/testing-react-with-jest-and-enzyme-20505fec4675
+
+https://nextjs.org/docs/#customizing-webpack-config
 
 https://stackoverflow.com/questions/52067944/cannot-find-module-babel-core/52067984
 
