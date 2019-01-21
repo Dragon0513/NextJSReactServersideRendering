@@ -28,7 +28,7 @@ const Basic = (props) => (
         return errors
       }}
       onSubmit={(values, { setSubmitting }) => {
-        props.handleSubmit(values).then(function(response) {
+        props.handleSubmit(values).then(function (response) {
           setSubmitting(false)
           Router.push(`/guestbook`)
         })
