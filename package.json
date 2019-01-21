@@ -42,8 +42,6 @@
     "react-dom": "^16.6.3"
   },
   "devDependencies": {
-    "@babel/preset-env": "^7.2.3",
-    "@babel/preset-react": "^7.0.0",
     "acorn": "^6.0.5",
     "acorn-jsx": "^5.0.1",
     "babel-core": "^7.0.0-bridge.0",
