@@ -12,6 +12,12 @@ app.prepare().then(() => {
 
   server.use(bodyParser.json())
 
+  this.guestExists = function (guest) {
+    let result = true
+
+    return result
+  }
+
   server.post('/api/guestbook', (req, res, next) => {
     const { fullname, message } = req.body
 
@@ -19,8 +25,17 @@ app.prepare().then(() => {
       fullname,
       message
     }
+    // if (this.guestExists(newGuest)) {
+    //   let message = {
+    //     success: false,
+    //     message: 'Guest exists'
+    //   }
+    //   res.status('200').json(message)
+    // } else {
+    //   guestsData.push(newGuest)
+    //   res.status('200').json(guestsData)
+    // }
     guestsData.push(newGuest)
-
     res.status('200').json(guestsData)
   })
 
