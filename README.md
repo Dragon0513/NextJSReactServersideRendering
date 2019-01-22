@@ -26,18 +26,15 @@ Error handling and how I display errors and validation is very simple.
 Hosting and deployment - 
 I am hosting on heroku where I auto deploy now whenever I commit to the Master repo.
 
-Running local dev (Code Linting) - 
-"npm run dev" - 
+Running local dev (Terminal: npm run dev) 
 Code linting is enabled via next.config.js (But it's not running after babel setup. I'll review later.)
 
-Testing with Jest and Enzyme (Terminal: npm run test)
+Testing with Jest and Enzyme (Terminal: npm run test || npm run test:watch)
 Runs all tests (With snapshots for react)
 
 TODO:
 Add redirect message and logic (from index page where state exists)
 Add validation to prevent duplicat guests
-Run tests?
-Add clear?
 
 ##### BONUS
 

@@ -17,6 +17,12 @@
     "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install && npm run build",
     "start": "node ./server"
   },
+  "standard": {
+    "plugins": [
+      "flowtype"
+    ],
+    "parser": "babel-eslint"
+  },
   "jest": {
     "snapshotSerializers": [
       "enzyme-to-json/serializer"
@@ -55,11 +61,11 @@
     "enzyme": "^3.8.0",
     "enzyme-adapter-react-16": "^1.7.1",
     "enzyme-to-json": "^3.3.5",
-    "eslint": "^5.12.0",
+    "eslint": "^5.12.1",
     "eslint-config-standard": "^12.0.0",
     "eslint-loader": "^2.1.1",
     "eslint-plugin-flowtype": "^3.2.1",
-    "eslint-plugin-react": "^7.12.3",
+    "eslint-plugin-react": "^7.12.4",
     "espree": "^5.0.0",
     "jest": "^23.6.0",
     "react-addons-test-utils": "^15.6.2",
