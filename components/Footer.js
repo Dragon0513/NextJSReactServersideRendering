@@ -7,8 +7,8 @@ const footerStyle = {
 
 const Footer = () => (
   <div style={footerStyle}>
-    <Link href='https://github.com/amusto/RemedyHealthNextCodeTest'>
-      <a>https://github.com/amusto/RemedyHealthNextCodeTest</a>
+    <Link href='https://github.com/amusto/NextJSReactServersideRendering'>
+      <a>https://github.com/amusto/NextJSReactServersideRendering</a>
     </Link>
     <style jsx>{`
       input[type=text], select {
